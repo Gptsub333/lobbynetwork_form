@@ -32,16 +32,16 @@ export default function Home() {
   const [isLoading, setIsLoading] = useState(false)
 
   const subscriptionTiers = [
-    { id: "foundation", label: "Foundation", price: "$99/month", value: 99 },
-    { id: "builder", label: "Builder", price: "$975/month", value: 975 },
-    { id: "flagship", label: "Flagship", price: "$1875/month", value: 1875 },
+    { id: "foundation", label: "Foundation", price: "$99/month", value: 1 },
+    { id: "builder", label: "Builder", price: "$975/month", value: 1 },
+    { id: "flagship", label: "Flagship", price: "$1875/month", value: 1 },
   ]
 
   const addOnOptions = [
-    { id: "job-event", label: "Boost a Job or Event", price: "$495", value: 495 },
-    { id: "virtual-hiring", label: "Virtual Hiring Event", price: "$1500", value: 1500 },
-    { id: "hiring-event", label: "In-Person Hiring Event", price: "$5000", value: 5000 },
-    { id: "network-sponsorship", label: "Sponsor a Networking Event", price: "$2000", value: 2000 },
+    { id: "job-event", label: "Boost a Job or Event", price: "$495", value: 1 },
+    { id: "virtual-hiring", label: "Virtual Hiring Event", price: "$1500", value: 1 },
+    { id: "hiring-event", label: "In-Person Hiring Event", price: "$5000", value: 1 },
+    { id: "network-sponsorship", label: "Sponsor a Networking Event", price: "$2000", value: 1 },
   ]
 
   const hearAboutUsOptions = ["google", "website", "referral", "other"]
