@@ -524,7 +524,7 @@ export default function Home() {
             Company Website <span className="text-red-500">*</span>
           </label>
           <input
-            type="url"
+            type="text"
             id="companyWebsite"
             required
             value={formData.companyWebsite}
